@@ -1,0 +1,91 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    padding-left: 50%;
+    padding-top: 25%;
+    initial-letter-align: 2px;
+    background: url('https://i.postimg.cc/NjqNkppV/pexels-william-choquette-1954524.jpg');
+    background-size: cover;
+    
+}
+.btn{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-left: 5cm;
+}
+
+.judul{
+    padding-bottom: 25px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.judul:hover{
+    transform: scale(0.9);
+ transition: cubic-bezier(0.23, 1, 0.320, 1) 3s;
+
+}
+
+.input{
+    font-weight: 500;
+    font-size: 19px;
+    
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    background-size: 450px;
+    background-image:linear-gradient(120deg, #9dd633,#6d79dd);
+}
+
+.input input{
+    border: none;
+    width: 300px;
+    height: 29px;
+    margin-top: 2px;
+    margin-bottom: 9px;
+}
+
+.container{
+    position:absolute;
+    left: 40%;
+    top:40%;
+    bottom: 50px;
+    background-image:linear-gradient(120deg, #a0be66,#2c38a7);
+    border-radius: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+button{
+    background-image:linear-gradient(120deg, #a3e031,#6d79dd);
+    font: 200;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 35px;
+    font-size: 2px;
+    cursor: pointer;
+    font-size: 25px;
+    
+}
+button:hover{
+ transform: scale(0.9);
+ transition: cubic-bezier(0.23, 1, 0.320, 1) 3s;
+}
+
+button::before{
+    color: beige;
+} 
+
+
+.result{
+    margin-top: 40px;
+}
