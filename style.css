@@ -1,4 +1,4 @@
- *{
+  *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -54,8 +54,8 @@ body{
 .container{
     position:absolute;
     left: 40%;
-    top:40%;
-    bottom: 50px;
+    top:20%;
+    bottom: 60px;
     background-image:linear-gradient(120deg, #a0be66,#2c38a7);
     border-radius: 70px;
     padding-left: 50px;
